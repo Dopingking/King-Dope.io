@@ -1,0 +1,136 @@
+
+body {
+    padding-top: 5px; 
+}
+
+
+/* tablet screen sizes (iPad) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    .home, .projects, .skills, .contact {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        padding-top: 100px; 
+    }
+
+   
+    .home-info h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .home-info h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .home-info p {
+        font-size: 18px;
+        text-align: justify;
+        line-height: 1.5;
+    }
+
+    
+    .home-img .img-box {
+        width: 55vw; 
+        height: 55vw; 
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    .home-img .img-box .img-item {
+        width: 100%;
+        height: 100%;
+    }
+
+    .project-box {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+
+    .footer {
+        padding: 40px 5%;
+        text-align: center;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+   
+    .navbar {
+        padding: 12px 5%;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding: 80px 5% 0;
+    }
+
+    .home-info .btn-sci{
+        display: block;
+    }
+
+    .home-info h1 {
+        font-size: 38px;
+    }
+
+    .home-info h2 {
+        font-size: 24px;
+    }
+
+    .home-info p{
+        text-align: center;
+    }
+    
+    .home-info .btn-sci .sci{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .home-info p {
+        font-size: 16px;
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    .home-info .btn-sci{
+        margin-top: 50px;
+    }
+
+    .home-img .img-box .img-item{
+       display: none;
+    }
+
+    .home-img .img-box::after, .home-img .img-box::before{
+        display: none;
+    }
+    
+    .home-img .img-box {
+        width: 60vw;
+        height: 60vw;
+    }
+
+    
+    .project-box {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+   
+    .footer {
+        padding: 30px 5%;
+        text-align: center;
+    }
+}
